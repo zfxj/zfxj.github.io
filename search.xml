@@ -6,7 +6,7 @@
       <title><![CDATA[hello codeJun]]></title>
       <url>/2017/11/23/hello-xj/</url>
       <content type="html"><![CDATA[<p>摘要:<br><a id="more"></a><br>正文:我是正文</p>
-]]></content>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$正文介绍</span><br><span class="line">$hahhahha</span><br></pre></td></tr></table></figure>]]></content>
       
         <categories>
             
