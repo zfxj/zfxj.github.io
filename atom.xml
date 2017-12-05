@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zfxj.github.io/"/>
-  <updated>2017-12-04T15:38:53.157Z</updated>
+  <updated>2017-12-05T01:46:33.921Z</updated>
   <id>https://zfxj.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo+github搭建个人博客详细步骤</title>
-    <link href="https://zfxj.github.io/2017/12/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://zfxj.github.io/2017/12/04/我的第一个博客/</id>
-    <published>2017-12-04T13:39:31.000Z</published>
-    <updated>2017-12-04T15:38:53.157Z</updated>
+    <title>github+hexo</title>
+    <link href="https://zfxj.github.io/2017/12/05/github-hexo/"/>
+    <id>https://zfxj.github.io/2017/12/05/github-hexo/</id>
+    <published>2017-12-05T01:46:04.000Z</published>
+    <updated>2017-12-05T01:46:33.921Z</updated>
     
     <content type="html"><![CDATA[<p>如果不让文章展示完全，让其出现<b>阅读全文》</b>，在顶部名称、标签信息…下 more 上不能为空<br><a id="more"></a></p><h2 id="第一步：下载安装Git"><a href="#第一步：下载安装Git" class="headerlink" title="第一步：下载安装Git"></a>第一步：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">下载安装Git</a></h2><p><img src="/img/1.png" alt="git下载1"><br><img src="/img/2.png" alt="logo"><br>然后一路<em>next</em>就好</p><h2 id="第二步：下载安装node-js"><a href="#第二步：下载安装node-js" class="headerlink" title="第二步：下载安装node.js"></a>第二步：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载安装node.js</a></h2><p>此处省略了一丢丢。。。</p><h2 id="第三步：安装hexo"><a href="#第三步：安装hexo" class="headerlink" title="第三步：安装hexo"></a>第三步：安装hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1、利用 npm 命令即可安装。在任意位置点击鼠标右键，选择Git Bash</span><br></pre></td></tr></table></figure><p><img src="/img/2.png" alt="logo"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2、输入命令：npm install -g hexo</span><br></pre></td></tr></table></figure><p>这里如果地址被“墙”，可以参考这篇文章的<a href="http://blog.csdn.net/jzooo/article/details/46781805" target="_blank" rel="noopener">“安装Hexo”</a>部分</p><h2 id="第四步：初始化Hexo"><a href="#第四步：初始化Hexo" class="headerlink" title="第四步：初始化Hexo"></a>第四步：初始化Hexo</h2><p>1、创建初始化Hexo文件夹（我的是在E:\workSpace\HexoConfig）<br><img src="/img/4.png" alt="git下载1"></p><p>2、在Hexo文件下，右键运行Git Bash，输入命令：hexo init</p><p>3、在_config.yml,进行基础配置ming<br><img src="/img/5.png" alt="git下载1"></p><p>其中可以在这里<a href="https://hexo.io/themes/" target="_blank" rel="noopener">浏览更多主题</a>，然后在Hexo文件夹下 Git Bash</p><p>输入命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-nextthemes/next</span><br></pre></td></tr></table></figure></p><p>，（next为主题名字）来获得更多主题</p><p>参考&gt; <a href="http://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">http://www.jianshu.com/p/189fd945f38f</a></p>]]></content>
     
@@ -32,9 +32,26 @@
     </summary>
     
     
-      <category term="兴趣" scheme="https://zfxj.github.io/tags/%E5%85%B4%E8%B6%A3/"/>
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zfxj.github.io/2017/12/05/hello-world/"/>
+    <id>https://zfxj.github.io/2017/12/05/hello-world/</id>
+    <published>2017-12-05T01:33:33.014Z</published>
+    <updated>2017-11-23T02:43:56.784Z</updated>
     
-      <category term="爱好" scheme="https://zfxj.github.io/tags/%E7%88%B1%E5%A5%BD/"/>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
     
   </entry>
   
@@ -61,27 +78,6 @@
       <category term="hello" scheme="https://zfxj.github.io/tags/hello/"/>
     
       <category term="标签内容" scheme="https://zfxj.github.io/tags/%E6%A0%87%E7%AD%BE%E5%86%85%E5%AE%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zfxj.github.io/2017/11/23/hello-world/"/>
-    <id>https://zfxj.github.io/2017/11/23/hello-world/</id>
-    <published>2017-11-23T02:43:56.782Z</published>
-    <updated>2017-11-23T02:43:56.784Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
