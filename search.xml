@@ -3,36 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[Hexo+github搭建个人博客详细步骤]]></title>
-      <url>/2017/12/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"><![CDATA[<p>如果不让文章展示完全，让其出现<b>阅读全文》</b>，在顶部名称、标签信息…下 more 上不能为空<br><a id="more"></a></p>
-<h2 id="第一步：下载安装Git"><a href="#第一步：下载安装Git" class="headerlink" title="第一步：下载安装Git"></a>第一步：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">下载安装Git</a></h2><p><img src="/img/1.png" alt="git下载1"><br><img src="/img/2.png" alt="logo"><br>然后一路<em>next</em>就好</p>
-<h2 id="第二步：下载安装node-js"><a href="#第二步：下载安装node-js" class="headerlink" title="第二步：下载安装node.js"></a>第二步：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载安装node.js</a></h2><p>此处省略了一丢丢。。。</p>
-<h2 id="第三步：安装hexo"><a href="#第三步：安装hexo" class="headerlink" title="第三步：安装hexo"></a>第三步：安装hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1、利用 npm 命令即可安装。在任意位置点击鼠标右键，选择Git Bash</span><br></pre></td></tr></table></figure>
-<p><img src="/img/2.png" alt="logo"></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2、输入命令：npm install -g hexo</span><br></pre></td></tr></table></figure>
-<p>这里如果地址被“墙”，可以参考这篇文章的<a href="http://blog.csdn.net/jzooo/article/details/46781805" target="_blank" rel="noopener">“安装Hexo”</a>部分</p>
-<h2 id="第四步：初始化Hexo"><a href="#第四步：初始化Hexo" class="headerlink" title="第四步：初始化Hexo"></a>第四步：初始化Hexo</h2><p>1、创建初始化Hexo文件夹（我的是在E:\workSpace\HexoConfig）<br><img src="/img/4.png" alt="git下载1"></p>
-<p>2、在Hexo文件下，右键运行Git Bash，输入命令：hexo init</p>
-<p>3、在_config.yml,进行基础配置ming<br><img src="/img/5.png" alt="git下载1"></p>
-<p>其中可以在这里<a href="https://hexo.io/themes/" target="_blank" rel="noopener">浏览更多主题</a>，然后在Hexo文件夹下 Git Bash</p>
-<p>输入命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-nextthemes/next</span><br></pre></td></tr></table></figure></p>
-<p>，（next为主题名字）来获得更多主题</p>
-<p>参考&gt; <a href="http://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">http://www.jianshu.com/p/189fd945f38f</a></p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> 兴趣 </tag>
-            
-            <tag> 爱好 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[hello codeJun]]></title>
       <url>/2017/11/23/hello-xj/</url>
       <content type="html"><![CDATA[<p>摘要:<br><a id="more"></a><br>正文:我是正文</p>
